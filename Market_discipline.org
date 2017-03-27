@@ -4,82 +4,91 @@
 #+BEGIN_EXPORT latex
 \thispagestyle{firststyle}
 \IssueTitle{Market Discipline or a Fallout}
-\NewsAuthor{Mauricio Rosal, \small\it Chief Economist, PhD}
+\NewsAuthor{Joao Mauricio Rosal, \small\it Chief Economist, PhD}
 \NewsEmail{joao.rosal@bgcpartners.com}
 \JournalIssue
 
     \begin{tcolorbox}[colbak=red!5!white, colframe=red!0!white]
       \NewsItem{Market Discipline or a Fallout?}
       \begin{compactitem}
-      \item \textit{We understand the balance of risks have changed, unfortunatley, not for the better.}
-      \item \textit{A muddling through type of social security reform is becoming more likely as opposed to a material one.}
-      \item \textit{This implies a two-fold path going foward: a) market discipline forces a meaningful reform, or b) political forebearnace leads to negative re-pricing for the longer term.}
+      \item \textit{We understand the balance of risks have tilted to the downside as odds of a muddling through type of social security reform have increased.}
+      \item \textit{This implies a two-fold path going foward: a) market discipline forces the political class to embrace a meaningful reform,
+                    or b) political forebearnace regnin in entailing a negative re-pricing for the longer term.}
+      \itme \textit{The odds of a volatility free path towards a significant reform seems very low at moment.}
       \end{compactitem}
     \end{tcolorbox}
 \vspace{-0.5cm}
 #+END_EXPORT
 
+
 * The Two-fold paths
 #+ATTR_LATEX: :environment compactitem :options [$\diamond$]
-- *Balance of risks have changed*. The latest flow of news have
-  confirmed the difficulties of Mr. Temer to approve the social
-  secutiry reform as is. While some type of compromising have been
+- *Balance of risks have tilted*. The latest flow of news have
+  confirmed the difficulties of Mr. Temer to approve his social
+  security reform as is. While some type of compromising has been
   expected from the outset, we believe the latest announcement to
-  leave State civil servants out of the reform has opened a pandora
-  box, making it is difficult to predict what is going to come out of
-  it.
+  leave State civil servants out of the reform has opened a Pandora
+  box, making difficult to predict what is going to come out of it.
 
-  More specifically, once one makes such a type of compromising
-  involving specific classes of workers, the incentives in place are
-  such that other classes should soon start to lobby for
-  favoritism. In addition, there is also the interest of less
-  organized citizens, such as those leaving off social benefits in
-  many corners of the country, who hold great voting
-  relevance. Thence, once sums all that up, the budget of acceptable
-  concessions from the fiscal adjustment standpoint may start to fall
-  short of the mounting pressures.
+- *The Genie out of the box*. Simply put, once one makes a
+  compromising to a specific class entreched interests, the incentives
+  are such that other organized classes should soon start to lobby for
+  the same type of favoritism. In addition, there is also the interest
+  of less organized citizens, such as those living off social
+  benefits, who are held pretty close to the heart of politicians in
+  Brasilia. Hence, once we sum all this up, the budget of acceptable
+  concessions may well fall shot of the mounting pressures arising
+  either within politicians class or from specific sectors of the
+  society.
+
+- *Any counteracting pressure?* In light of the fore mentioned, the
+  easy path towards a reform that comprises a) an increases the
+  minimum retirement age to 65 for both genders; b) the end retirement
+  linked to the numbe of years contributing to the system; and c)
+  encompasses rural, urban, private and public workers alike, looks
+  very slim. In nutshell, all these theme seems far too much to fit in
+  the budget of the demands which currently floating around. In fact,
+  if we are to witness any satisfactory compromising, counteracting
+  forces aganist these pressure  are of paramount importance, and in this respect the market
+  looks like the main candidate that may step up and take up this
+  role.
 
 #+BEGIN_EXPORT latex
-\begin{figure}[h]\centering
-\subfloat[#]{
-\label{fig:spreads}
-\includegraphics[width=6.5cm]{./images/csv.png}
-
-}
-\subfloat[#]{
-\label{fig:vix}
-\includegraphics[width=6.5cm]{./images/vix.png}
-}
-
-\end{figure}
+  \begin{figure}[h]\centering
+  \subfloat[#]{\label{fig:spreads}
+  \includegraphics[width=7.5cm]{./images/csv.png}
+  }
+  \subfloat[#]{\label{fig:vol}
+  \includegraphics[width=7.5cm]{./images/vix.png}
+  }
+  \end{figure}
 #+END_EXPORT
 
-- *A two-fold path*. In light of the fore mentioned, the easy path
-  towards a reform that comprises a) increases the minimum retirement
-  age to 65 for both genders; b) ends with retirement of period of
-  contribution of the system; and c) encompasses rural, urban, private
-  and public workers alike is no longer possible. In fact, in order to
-  reach a compromise that contemplates parts of either of these
-  topics, there ought to be pressure in the opposite direction, and
-  the only possible candidate to looks in the positions to do so is
-  the market.
-
-  In fact, Brazilian credit spreads as in \ref{fig:spreads}, it's been
-  standing about 90bps above Mexico's year-to-date, a country holding
-  a sovereign credit rating about 4 notches above Brazil's. No doubt,
-  it entails a rather benign vision towards the country's outlook, in
-  particular, with respect to the country social security system.
-  Hence, should this perception changes significantly, there is plenty
-  of room for things to turn sour. In fact, the recent moves
-  concerning the social security reform have been shrugged off by the
-  market, and the volatility of Brazilian assets have clearly take off
-  way from the US's benchmark.
+- *A two-fold path*. As in \ref{fig:spreads}, Brazilian sovereign
+  spreads have been standing about 90bps above Mexico's year-to-date,
+  a country holding a sovereign credit rating about 4 notches above
+  Brazil's. No doubt, it entails a rather benign vision towards the
+  country's outlook, in particular, with respect to the country social
+  security system.  Hence, should this perception changes
+  significantly, there is plenty of room for things to turn sour. In
+  fact, the recent moves concerning the social security reform have
+  not been shrugged off by the market, and the volatility of Brazilian
+  assets have clearly take off way from the US's benchmark (\ref{fig:vol}).
 
   Hence, the question: will the political class remain oblivious to
   that and follow their own agenda, or will the kneel to market
   pressures? We thinks latter of the most likely candidate, but with
   2018 general elections take over their agenda, one should not
   dismiss the former altogether.
+
+- *A new Round of Reforms*. Be all that as it may, what is become
+  clear is that Mr. Temer's reform won't be any silver bullet to fix
+  social security structural under-funding, as just like the reforms
+  of his predecessors. In fact, with State and municipalities left out
+  and plus other concessions that we are yet to see, the budget of
+  changes for 2019 and beyond is growing, and if history is repeat
+  itself, they should only be ticked off with pressure coming
+  market.
 
 
 
@@ -89,12 +98,11 @@
 
 
 
-
-* Forecastsn
+* Forecasts
 
 
 #+LATEX:\rowcolors{2}{grey!15}{white}
-#+INCLUDE: "./org/forecast.org"
+#+INCLUDE:x "./org/forecast.org"
 
 #+BEGIN_EXPORT latex
 \newpage

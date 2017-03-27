@@ -3,7 +3,10 @@ import matplotlib.pyplot as plt
 
 
 dvix = pd.read_excel("../data/data.xlsx", sheetname="VIX", index_col=0).dropna()
+dvix.columns = ['VIX', "Brazil's ETF VIX"]
 dcsv = pd.read_excel("../data/data.xlsx", sheetname="cds_consolidate", index_col=0)
+dcsv.columns = ["Brazil 5-Years CSV", "MXN 5-Years CSV"]
+
 
 
 # charts
@@ -16,26 +19,26 @@ def gen_chart(df, title, y_title, date_ini):
     # Choose colors from http://colorbrewer2.org/ under "Export"
     fig = plt.figure()
     ax = fig.add_subplot(111)
-    df_final.iloc[:, 0].plot(ax=ax, color='red', linewidth=2, legend="Monthly")
-    df_final.iloc[:, 1].plot(ax=ax, color='orange', linewidth=2, legend="Margin")
+    df_final.iloc[:, 0].plot(ax=ax, color='red', linewidth=2, legend=True)
+    df_final.iloc[:, 1].plot(ax=ax, color='orange', linewidth=2, legend=True)
 
-    # labels
+    # labels labels
     for label in ax.xaxis.get_ticklabels():
         label.set_fontsize(18)
     for label in ax.yaxis.get_ticklabels():
         label.set_fontsize(18)
 
+    # title
     ax.set_title(title, fontsize=28)
     ax.title.set_position([.5,1.03])
 
     # label
 
-
     fig.tight_layout()
     return fig
 
 # vix
-date_ini = "2016-11-01"
+date_ini = "2016-12-01"
 fig_vix = gen_chart(dvix, "Implicit Volility", "%", date_ini)
 plt.savefig("./vix.png")
 

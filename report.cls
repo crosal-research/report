@@ -106,19 +106,27 @@
    }
    \rhead{\Large \color{slcolor}  \usefont{T1}{fvm}{sb}{n} Economics\&Fixed Income }
    \renewcommand{\headrulewidth}{0.0pt}
+
+    \cfoot{ \color{slcolor}
+    \scriptsize
+    João Mauricio Rosal, \it{PhD} \\
+    \scriptsize
+    \Letter\
+    \href{mailto:joao.rosal@partners.com}{joao.rosal@bgcpartners.com} \\
+    \Telefon\ +55 11 3077-2351 }
+
 }
 
+\fancypagestyle{plain}{
+  \fancyhf{}
 
 
-\newcommand{\headl}{
-      \lhead{\includegraphics[width=3.0cm]{./logo/BGC_logo.png}}
-}
+  \lhead{\includegraphics[width=3.0cm]{./logo/BGC_logo.png}}
 
-\newcommand{\rhead}{
-   \rhead{\Large \color{slcolor}  \usefont{T1}{fvm}{sb}{n} Economics\&Fixed Income }
-}
 
-\newcommand{\footl}{
+   \lhead{\lager \color{slcolor}  \usefont{T1}{fvm}{sb}{n} Economics\&Fixed Income }
+
+
   \cfoot{ \color{slcolor}
     \scriptsize
     João Mauricio Rosal, \it{PhD} \\
@@ -128,7 +136,6 @@
     \Telefon\ +55 11 3077-2351 }
 }
 
-\newcommand{\footr}{\rfoot{\footnotesize \\ Page \thepage}}
 
 
 % set default font

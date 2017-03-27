@@ -3,15 +3,7 @@
 ;; data: 14/03/2017
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (setq org-publish-project-alist
-      '(("html-monitor"
-        :base-directory "./"
-        :base-extension "org"
-        :publishing-directory "./public_html/"
-        :exclude-tags noexporthtml
-        :recursive nil
-        :publishing-function org-html-publish-to-html
-        )
-        ("tex-monitor"
+      '(("tex"
          :base-directory "./org"
          :base-extension "org"
          :publishing-directory "./latex"
@@ -19,7 +11,7 @@
          :recursive nil
          :publishing-function org-latex-publish-to-latex
          )
-        ("pdf-monitor"
+        ("pdf"
          :base-directory "./"
          :base-extension "org"
          :publishing-directory "./public_pdf/"
