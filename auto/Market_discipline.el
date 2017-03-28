@@ -39,12 +39,13 @@
     "graphics"
     "tocloft"
     "minitoc"
-    "babel")
+    "babel"
+    "subfig")
    (LaTeX-add-labels
-    "sec:org10a1df2"
+    "sec:orgee9a00d"
     "fig:spreads"
-    "fig:vix"
-    "sec:org01e9a42"
-    "sec:orgbeb03e1"))
+    "fig:vol"
+    "sec:orgde650d2"
+    "sec:org718fe4d"))
  :latex)
 

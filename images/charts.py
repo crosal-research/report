@@ -3,14 +3,13 @@ import matplotlib.pyplot as plt
 
 
 dvix = pd.read_excel("../data/data.xlsx", sheetname="VIX", index_col=0).dropna()
-dvix.columns = ['VIX', "Brazil's ETF VIX"]
+dvix.columns = ["Brazil's ETF VIX", "VIX"]
 dcsv = pd.read_excel("../data/data.xlsx", sheetname="cds_consolidate", index_col=0)
 dcsv.columns = ["Brazil 5-Years CSV", "MXN 5-Years CSV"]
 
 
 
 # charts
-
 def gen_chart(df, title, y_title, date_ini):
     """"""
     plt.style.use("ggplot")
@@ -39,7 +38,7 @@ def gen_chart(df, title, y_title, date_ini):
 
 # vix
 date_ini = "2016-12-01"
-fig_vix = gen_chart(dvix, "Implicit Volility", "%", date_ini)
+fig_vix = gen_chart(dvix, "Implicit Volatility", "%", date_ini)
 plt.savefig("./vix.png")
 
 # csv

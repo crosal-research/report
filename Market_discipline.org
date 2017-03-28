@@ -1,109 +1,96 @@
 #+SETUPFILE: ./config/setupfile.org
 
-
 #+BEGIN_EXPORT latex
-\thispagestyle{firststyle}
-\IssueTitle{Market Discipline or a Fallout}
+\thispagestyle{firstpagestyle}
+\IssueTitle{Time for Market Discipline}
 \NewsAuthor{Joao Mauricio Rosal, \small\it Chief Economist, PhD}
 \NewsEmail{joao.rosal@bgcpartners.com}
 \JournalIssue
-
     \begin{tcolorbox}[colbak=red!5!white, colframe=red!0!white]
-      \NewsItem{Market Discipline or a Fallout?}
+      \NewsItem{Time for Market Discipline}
       \begin{compactitem}
-      \item \textit{We understand the balance of risks have tilted to the downside as odds of a muddling through type of social security reform have increased.}
-      \item \textit{This implies a two-fold path going foward: a) market discipline forces the political class to embrace a meaningful reform,
-                    or b) political forebearnace regnin in entailing a negative re-pricing for the longer term.}
-      \itme \textit{The odds of a volatility free path towards a significant reform seems very low at moment.}
+      \item \textit{We understand the balance of risks have somewhat tilted to the downside as the odds of a muddling through type of social security reform have increased.}
+      \item \textit{This implies a two-fold path going forward: either a) market discipline forces the political class to embrace a meaningful reform (our base-case),
+                    or b) political forbearance leads to a soft version, with negative impact on local assets.}
+      \item \textit{The odds of a volatility free path towards a significant reform seems very low at moment.}
       \end{compactitem}
     \end{tcolorbox}
 \vspace{-0.5cm}
 #+END_EXPORT
 
 
-* The Two-fold paths
+* Market Discipline
 #+ATTR_LATEX: :environment compactitem :options [$\diamond$]
-- *Balance of risks have tilted*. The latest flow of news have
+- *Balance of risks have tilted down*. The latest flow of news have
   confirmed the difficulties of Mr. Temer to approve his social
   security reform as is. While some type of compromising has been
-  expected from the outset, we believe the latest announcement to
-  leave State civil servants out of the reform has opened a Pandora
-  box, making difficult to predict what is going to come out of it.
+  expected from the outset, we believe the latest announcement that
+  Mr.Temer may leave State civil servants out of the reform has opened
+  a Pandora box, making more difficult to predict what is going to
+  come out of it. As matter of fact, the government itself has
+  understood the complexity of the move, and is - reportedly -
+  attempting to take a u-turn on the issue.
 
-- *The Genie out of the box*. Simply put, once one makes a
-  compromising to a specific class entreched interests, the incentives
-  are such that other organized classes should soon start to lobby for
-  the same type of favoritism. In addition, there is also the interest
-  of less organized citizens, such as those living off social
-  benefits, who are held pretty close to the heart of politicians in
-  Brasilia. Hence, once we sum all this up, the budget of acceptable
-  concessions may well fall shot of the mounting pressures arising
-  either within politicians class or from specific sectors of the
-  society.
+- *The Genie is out*. Simply put, once one makes a
+  compromising to a specific class of entrenched interests, the
+  incentives are such that other organized classes should soon start
+  to lobby for the same type of favoritism. In addition, there is also
+  the interest of less organized citizens, such as those living off
+  social benefits, who are held pretty close to the heart of
+  politicians in Brasilia. Therefore, if one sums all that up, the
+  budget of acceptable concessions may run the risk of falling short
+  of the mounting pressures, a question mark we will need get
+  accustomed to in the next few months.
 
-- *Any counteracting pressure?* In light of the fore mentioned, the
+- *Any counteracting pressure?* In light of the aforementioned, the
   easy path towards a reform that comprises a) an increases the
-  minimum retirement age to 65 for both genders; b) the end retirement
-  linked to the numbe of years contributing to the system; and c)
-  encompasses rural, urban, private and public workers alike, looks
-  very slim. In nutshell, all these theme seems far too much to fit in
-  the budget of the demands which currently floating around. In fact,
-  if we are to witness any satisfactory compromising, counteracting
-  forces aganist these pressure  are of paramount importance, and in this respect the market
-  looks like the main candidate that may step up and take up this
-  role.
+  minimum retirement age to 65 for both genders; b) the end of the
+  retirement linked to the number of years contributing to the system;
+  and c) encompasses rural, urban, private and public workers alike,
+  looks very slim. In fact, if we are to witness any satisfactory
+  compromising, counteracting forces against the softening pressures
+  are of paramount importance, and in this respect, the market looks
+  like the only candidate that may take up this role. In other words,
+  reform without volatility looks close to a contraction at moment.
+
+- *The Room for Discipline*. In fact, as in the exhibit
+  \ref{fig:spreads}, Brazilian sovereign spreads have been standing
+  about 90bps above Mexico's year-to-date, a country holding a
+  sovereign credit rating about 4 notches above Brazil's. No doubt, it
+  entails a rather benign vision towards the Brazil's fiscal outlook,
+  in particular, with respect to the country social security system.
+  Hence, should this perception changes significantly, there is plenty
+  of room for things to turn sour. In fact, the recent moves
+  concerning the social security reform have not been shrugged off by
+  the market, and the volatility of Brazilian assets have clearly take
+  off from the US' benchmark (\ref{fig:vol}).
 
 #+BEGIN_EXPORT latex
   \begin{figure}[h]\centering
-  \subfloat[#]{\label{fig:spreads}
+  \subfloat[]{\label{fig:spreads}
   \includegraphics[width=7.5cm]{./images/csv.png}
   }
-  \subfloat[#]{\label{fig:vol}
+  \subfloat[]{\label{fig:vol}
   \includegraphics[width=7.5cm]{./images/vix.png}
   }
   \end{figure}
 #+END_EXPORT
 
-- *A two-fold path*. As in \ref{fig:spreads}, Brazilian sovereign
-  spreads have been standing about 90bps above Mexico's year-to-date,
-  a country holding a sovereign credit rating about 4 notches above
-  Brazil's. No doubt, it entails a rather benign vision towards the
-  country's outlook, in particular, with respect to the country social
-  security system.  Hence, should this perception changes
-  significantly, there is plenty of room for things to turn sour. In
-  fact, the recent moves concerning the social security reform have
-  not been shrugged off by the market, and the volatility of Brazilian
-  assets have clearly take off way from the US's benchmark (\ref{fig:vol}).
-
-  Hence, the question: will the political class remain oblivious to
-  that and follow their own agenda, or will the kneel to market
-  pressures? We thinks latter of the most likely candidate, but with
-  2018 general elections take over their agenda, one should not
-  dismiss the former altogether.
-
-- *A new Round of Reforms*. Be all that as it may, what is become
-  clear is that Mr. Temer's reform won't be any silver bullet to fix
-  social security structural under-funding, as just like the reforms
-  of his predecessors. In fact, with State and municipalities left out
-  and plus other concessions that we are yet to see, the budget of
-  changes for 2019 and beyond is growing, and if history is repeat
-  itself, they should only be ticked off with pressure coming
-  market.
-
-
+- *Forecasts unchanged for now*. Risk balances aside, we stick to the
+  vision that the Selic rate should reach 8.00% by year-end, including
+  a couple 100bps cuts in the next two COPOM meetings. Our thesis
+  relies on inflation drivers as opposed to any hypothesis concerning
+  structural rate debate, and provided no major dislocation of the
+  market occurs, this story should remain intact.
 
 #+BEGIN_EXPORT latex
 \newpage
 #+END_EXPORT
 
-
-
 * Forecasts
 
-
 #+LATEX:\rowcolors{2}{grey!15}{white}
-#+INCLUDE:x "./org/forecast.org"
-
+#+INCLUDE: "./org/forecast.org"
 #+BEGIN_EXPORT latex
 \newpage
 #+END_EXPORT
@@ -140,6 +127,7 @@ http://www.FCA.org.uk/register/.  The FCA regulates the financial
 services industry in the United Kingdom and is located at 25 The North
 Colonnade, Canary Wharf, London, E14 5HS.  BGC Financial LP CFTC Rule
 1.55(K) Firm Specific Disclosure Statement
+
 
 * COMMENT Local Variables
 # Local Variables:

@@ -20,4 +20,5 @@
 #+LATEX_HEADER:\usepackage{minitoc}
 #+LATEX_HEADER:\usepackage[portuguese]{babel}
 #+LATEX_HEADER:\usepackage[utf8]{inputenc}
+#+LATEX_HEADER:\usepackage{subfig}
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./static/css/stylesheet.css"/>

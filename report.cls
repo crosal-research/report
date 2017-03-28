@@ -12,7 +12,7 @@
 \RequirePackage[explicit]{titlesec}
 \RequirePackage{titletoc}
 \RequirePackage{geometry}
-\RequirePackage{hyperref}
+\RequirePackage[colorlinks=true, urlcolor=blue]{hyperref}
 \RequirePackage[utf8]{inputenc}
 
 
@@ -99,7 +99,7 @@
 %----------------------------------------------------------------------
 
 % document header and footing
-\fancypagestyle{firststyle}
+\fancypagestyle{firstpagestyle}
 {
    \fancyhf{}
    \lhead{\includegraphics[width=3.8cm]{./logo/BGC_logo.png}
@@ -108,33 +108,28 @@
    \renewcommand{\headrulewidth}{0.0pt}
 
     \cfoot{ \color{slcolor}
-    \scriptsize
+    \footnotesize
     João Mauricio Rosal, \it{PhD} \\
-    \scriptsize
+    \footnotesize
     \Letter\
     \href{mailto:joao.rosal@partners.com}{joao.rosal@bgcpartners.com} \\
     \Telefon\ +55 11 3077-2351 }
 
 }
 
-\fancypagestyle{plain}{
-  \fancyhf{}
-
-
+% \fancypagestyle{plain}{
+%   \fancyhf{}
   \lhead{\includegraphics[width=3.0cm]{./logo/BGC_logo.png}}
-
-
-   \lhead{\lager \color{slcolor}  \usefont{T1}{fvm}{sb}{n} Economics\&Fixed Income }
-
+   \rhead{\large \color{slcolor}  \usefont{T1}{fvm}{sb}{n} Economics\&Fixed Income}
 
   \cfoot{ \color{slcolor}
-    \scriptsize
+    \footnotesize
     João Mauricio Rosal, \it{PhD} \\
-    \scriptsize
+    \footnotesize
     \Letter\
     \href{mailto:joao.rosal@partners.com}{joao.rosal@bgcpartners.com} \\
     \Telefon\ +55 11 3077-2351 }
-}
+% }
 
 
 
@@ -146,10 +141,10 @@
 % Define Separators
 \newcommand{\HorRule}[1]{\noindent\rule{\linewidth}{#1}} % Creating a horizontal rule
 \newcommand{\SepRule}{\noindent							 % Creating a separator
-						\begin{center}
-							\rule{250pt}{1pt}
-						\end{center}
-						}
+  \begin{center}
+    \rule{250pt}{1pt}
+  \end{center}
+}
 \newcommand{\headlinecolor}{\normalcolor}
 
 

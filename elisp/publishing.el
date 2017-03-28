@@ -17,12 +17,9 @@
          :publishing-directory "./public_pdf/"
          :exclude-tags noexporthtml
          :recursive nil
+
          :publishing-function org-latex-publish-to-pdf
          )
-      ("pdf-output" :components ("tex-monitor" "pdf-monitor")
+        ("pdf-output" :components ("tex" "pdf")
        ))
       )
-
-
-
-
